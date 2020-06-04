@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Azexpress Android</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string-array name="intro_title">
+        <item>ORIGINAL PRODUCT</item>
+        <item>FREE SHIPPING</item>
+        <item>FAST DELIVERY</item>
+    </string-array>
+    <string-array name="intro_subtitle">
+        <item>Original with 1000 product from a lot of  different\nbrand accros the world. buy so easy with just\nsimple step then your item will send it.</item>
+        <item>Original with 1000 product from a lot of  different\nbrand accros the world. buy so easy with just\nsimple step then your item will send it.</item>
+        <item>Original with 1000 product from a lot of  different\nbrand accros the world. buy so easy with just\nsimple step then your item will send it.</item>
+    </string-array>
 </resources>

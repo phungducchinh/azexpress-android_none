@@ -94,6 +94,11 @@ dependencies {
 
     implementation("io.coil-kt:coil:0.9.5")
 
+    // Status bar util
+    implementation 'com.jaeger.statusbarutil:library:1.5.1'
+    // Circle image
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
+
     //glide
 //    implementation deps.glide.runtime
 //    annotationProcessor deps.glide.compiler
