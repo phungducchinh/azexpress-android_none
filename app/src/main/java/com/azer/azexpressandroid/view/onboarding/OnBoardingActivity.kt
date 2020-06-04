@@ -1,5 +1,8 @@
 package com.azer.azexpressandroid.view.onboarding
 
+import android.os.Bundle
+import android.view.Window
+import android.view.WindowManager
 import androidx.navigation.fragment.NavHostFragment
 import com.azer.azexpressandroid.R
 import com.azer.azexpressandroid.base.BaseActivity
@@ -10,6 +13,15 @@ class OnBoardingActivity : BaseActivity<ActivityOnBoardingBinding>() {
 
     override val layoutId: Int
         get() = R.layout.activity_on_boarding
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        window.setFlags(
+            WindowManager.LayoutParams.FLAG_FULLSCREEN,
+            WindowManager.LayoutParams.FLAG_FULLSCREEN
+        );
+        super.onCreate(savedInstanceState)
+    }
 
     override fun bindView() {
         setupNavigation()
